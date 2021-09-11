@@ -87,7 +87,7 @@ function carregar(){
 
     msg.innerHTML = `Hoje é ${dia_semana}`
     msg1.innerHTML = `${dia} de ${mes} de ${ano}`
-    msg2.innerHTML = `Agora são ${hora} : ${minutos}`
+    msg2.innerHTML = `Agora são ${hora} horas e ${minutos} minutos`
 
     if(hora >=0 && hora <12){
         // BOM DIA
